@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@dynamic-labs/ethereum": "*",
-    "@dynamic-labs/sdk-react-core": "*",
-    "@dynamic-labs/wagmi-connector": "*",
+    "@dynamic-labs/ethereum": "^2.5.2",
+    "@dynamic-labs/sdk-react-core": "^2.5.2",
+    "@dynamic-labs/solana": "^2.5.2",
+    "@dynamic-labs/wagmi-connector": "^2.5.2",
     "@tanstack/react-query": "^5.27.5",
     "react": "^18.2.0",
     "react-dom": "18.2.0",
@@ -14,7 +15,9 @@
     "wagmi": "^2.5.7"
   },
   "overrides": {
-    "typescript": "4.9.5"
+    "typescript": "4.9.5",
+    "rpc-websockets": "7.10.0",
+    "@solana/web3.js": "1.91.6"
   },
   "scripts": {
     "start": "react-scripts start",
